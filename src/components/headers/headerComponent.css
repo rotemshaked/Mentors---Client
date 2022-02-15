@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.userHeader,
+.guestHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 3rem;
+  background-color: #131313;
+}
+.side-links {
+  display: flex;
+}
+.profileAndLogOutDiv {
+  display: flex;
+}
+.home,
+.login,
+.logOut,
+.profile {
+  margin: 0rem 1rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+.home:hover,
+.login:hover,
+.logOut:hover,
+.profile:hover {
+  color: #9b9a9a;
+}
+.profile {
+  position: relative;
+}
+.edit {
+  position: absolute;
+  margin-top: 3vh;
+  color: #131313;
+  border: #131313 1px solid;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: lighter;
+  background-color: #e7e7e7;
+  border-radius: 0.2rem;
+  padding: 0.3rem 0.6rem;
+  text-align: center;
+}
+@media screen and (max-width: 900px) {
+  .userHeader,
+  .guestHeader {
+    font-weight: 500;
+  }
+}

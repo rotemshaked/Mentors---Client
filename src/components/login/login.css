@@ -1,0 +1,106 @@
+.logInPage {
+  background: url("../signUp/signUpPageImg.jpg");
+  height: 95vh;
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.logInContainer {
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20vw;
+  margin-top: 7vh;
+}
+.logIn {
+  background-color: rgba(143, 143, 143, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 3px red solid; */
+  font-size: 3rem;
+  color: whitesmoke;
+  margin-bottom: 1rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0.2rem 1rem;
+}
+input {
+  margin: 0.2rem 1rem;
+  text-indent: 0.5rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  border: 1.5px solid transparent;
+  /* cursor: pointer; */
+}
+.form input:focus {
+  /* border: 1.5px solid rgba(143, 143, 143, 0.5); */
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px rgba(170, 169, 169, 0.5) inset;
+}
+.submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4vh;
+}
+
+.submitBtn {
+  width: 20%;
+  height: 150%;
+  font-size: 1rem;
+  font-weight: bold;
+  /* color: aliceblue; */
+  cursor: pointer;
+  background-color: rgba(170, 169, 169, 0.5);
+}
+.submitBtn:hover {
+  background-color: rgba(146, 145, 145, 0.5);
+  /* background-color: rgba(170, 169, 169, 0.5); */
+}
+.signUpSpan {
+  color: rgb(29, 29, 212);
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.signUpDiv {
+  margin-top: 2vh;
+  height: 5vh;
+  margin-left: 1vw;
+  /* border: 2px red solid; */
+}
+@media screen and (max-width: 1000px) {
+  .logInContainer {
+    width: 80vw;
+    margin-left: 0vw;
+    margin-top: 0vh;
+  }
+
+  .submit {
+    margin-top: 4vh;
+  }
+  .submitBtn {
+    width: 40%;
+  }
+  .signUpDiv {
+    margin-top: 4vh;
+  }
+}

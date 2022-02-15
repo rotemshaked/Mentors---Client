@@ -1,0 +1,51 @@
+.mentorsPage {
+  background: url("./patrick-tomasso-QMDap1TAu0g-unsplash.jpg");
+  min-height: 95vh;
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  justify-content: start;
+  display: flex;
+  flex-wrap: wrap;
+  /* position: relative; */
+}
+.mentorDiv {
+  background-color: rgba(255, 255, 255, 0.822);
+  width: 17rem;
+  height: 24rem;
+  /* position: absolute; */
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profilePicture {
+  width: 12rem;
+  border-radius: 50%;
+  margin: 1rem;
+}
+.name {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+.role,
+.years {
+  font-size: 1rem;
+}
+.role,
+.years,
+.name {
+  margin-bottom: 0.5rem;
+}
+.messageBtn {
+  margin: 0.5rem;
+  height: 2rem;
+  width: 8rem;
+  border-radius: 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.messageBtn:hover {
+  background-color: rgb(190, 190, 190);
+}

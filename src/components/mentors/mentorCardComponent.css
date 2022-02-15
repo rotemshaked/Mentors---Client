@@ -1,0 +1,24 @@
+.mentor-container {
+  width: 18rem;
+  height: 15rem;
+  margin: 2rem 1rem;
+  border-radius: 1rem;
+  font-size: 3rem;
+  color: #fff;
+}
+.sport {
+  background: url("./images/test.jpg");
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.mentors {
+  display: flex;
+  flex-wrap: wrap;
+}

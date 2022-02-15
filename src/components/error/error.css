@@ -1,0 +1,9 @@
+.error {
+  border: 4px rgb(90, 90, 90) solid;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(182, 180, 180);
+  margin-top: 2rem;
+}

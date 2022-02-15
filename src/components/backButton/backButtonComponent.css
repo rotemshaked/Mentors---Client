@@ -1,0 +1,15 @@
+.backButton {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: none;
+  font-weight: bold;
+  background-color: rgba(15, 15, 15, 0.808);
+  color: #fff;
+  margin: 1rem;
+  cursor: pointer;
+  width: 7rem;
+}
+.backButton:hover {
+  color: rgb(240, 240, 240);
+  background-color: rgba(61, 60, 60, 0.808);
+}

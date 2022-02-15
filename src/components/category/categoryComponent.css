@@ -1,0 +1,81 @@
+.category {
+  width: 19rem;
+  height: 13rem;
+  /* margin: 1rem 0.45rem; */
+  margin: 2rem 1rem;
+  border-radius: 1rem;
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 0 0 3px #151928, 0 0 5px #272727;
+  border: none;
+  cursor: pointer;
+}
+.Music {
+  background: url("./images/music3.jpg");
+}
+.Sport {
+  background: url("./images/sport.jpg");
+}
+.Televesion {
+  background: url("./images/television.jpg");
+}
+.Arts {
+  background: url("./images/arts.jpg");
+}
+.Engineering {
+  background: url("./images/engineering.jpg");
+}
+.Sciences {
+  background: url("./images/music3.jpg");
+}
+.Law {
+  background: url("./images/law.jpg");
+}
+.Medicine {
+  background: url("./images/midicine.jpg");
+}
+.Education {
+  background: url("./images/education.jpg");
+}
+.Psychology {
+  background: url("./images/psychology2.jpg");
+}
+.Computer {
+  background: url("./images/computer.jpg");
+}
+.Architecture {
+  background: url("./images/architecture.jpg");
+}
+.Economics {
+  background: url("./images/economic.jpg");
+}
+.Chemistry {
+  background: url("./images/chemistry2.jpg");
+}
+.Physics {
+  background: url("./images/physics.jpg");
+}
+.Zoology {
+  background: url("./images/zoology.jpg");
+}
+.Relationships {
+  background: url("./images/relationship.jpg");
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.category:hover {
+  opacity: 0.7;
+}
