@@ -46,7 +46,7 @@ const Login = ({ setSignUp, signUp, movePage, setMovePage }) => {
       setLoading(true);
       await axios
         .post(
-          "http://localhost:8080/api/users/login",
+          "https://distracted-euclid-f15421.netlify.app/api/users/login",
           userLoginDetailes,
           config
         )

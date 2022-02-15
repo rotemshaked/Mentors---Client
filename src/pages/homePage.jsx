@@ -13,7 +13,7 @@ function HomePage() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8080/api/categories")
+      .get("https://distracted-euclid-f15421.netlify.app/api/categories")
       .then((categories) => {
         setCategories(categories.data);
       })

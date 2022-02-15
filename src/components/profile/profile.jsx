@@ -18,7 +18,7 @@ const Profile = ({ setSignUp }) => {
 
   const handleSave = (e) => {
     try {
-      const api = "http://localhost:8080/api/users/me";
+      const api = "https://distracted-euclid-f15421.netlify.app/api/users/me";
       const token = localStorage.getItem("token");
       axios
         .put(api, changes, {
@@ -37,7 +37,7 @@ const Profile = ({ setSignUp }) => {
 
   const handleDelete = () => {
     try {
-      const api = "http://localhost:8080/api/users/me";
+      const api = "https://distracted-euclid-f15421.netlify.app/api/users/me";
       const token = localStorage.getItem("token");
       axios
         .delete(api, {

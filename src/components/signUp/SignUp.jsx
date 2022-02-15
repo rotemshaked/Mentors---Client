@@ -76,7 +76,11 @@ const SignUpPage = ({ movePage, setMovePage }) => {
       };
       setLoading(true);
       await axios
-        .post("http://localhost:8080/api/users/signup", user, config)
+        .post(
+          "https://distracted-euclid-f15421.netlify.app/api/users/signup",
+          user,
+          config
+        )
         .then(() => {
           navigate("/");
         })
