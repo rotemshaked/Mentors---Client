@@ -76,7 +76,11 @@ const SignUpPage = ({ movePage, setMovePage }) => {
       };
       setLoading(true);
       await axios
-        .post("https://metors-server.herokuapp.com", user, config)
+        .post(
+          "https://metors-server.herokuapp.com/api/users/signup",
+          user,
+          config
+        )
         .then(() => {
           navigate("/");
         })
