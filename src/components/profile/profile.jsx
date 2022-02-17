@@ -37,7 +37,7 @@ const Profile = ({ setSignUp }) => {
 
   const handleDelete = () => {
     try {
-      const api = "https://distracted-euclid-f15421.netlify.app/api/users/me";
+      const api = "https://metors-server.herokuapp.com/";
       const token = localStorage.getItem("token");
       axios
         .delete(api, {

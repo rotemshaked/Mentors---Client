@@ -76,11 +76,7 @@ const SignUpPage = ({ movePage, setMovePage }) => {
       };
       setLoading(true);
       await axios
-        .post(
-          "https://distracted-euclid-f15421.netlify.app/api/users/signup",
-          user,
-          config
-        )
+        .post("https://metors-server.herokuapp.com/", user, config)
         .then(() => {
           navigate("/");
         })

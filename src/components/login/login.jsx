@@ -45,11 +45,7 @@ const Login = ({ setSignUp, signUp, movePage, setMovePage }) => {
       };
       setLoading(true);
       await axios
-        .post(
-          "https://distracted-euclid-f15421.netlify.app/api/users/login",
-          userLoginDetailes,
-          config
-        )
+        .post("https://metors-server.herokuapp.com/", userLoginDetailes, config)
         .then((theUser) => {
           localStorage.setItem("token", theUser.data.token);
           localStorage.setItem("userInfo", JSON.stringify(theUser.data.user));

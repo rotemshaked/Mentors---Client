@@ -13,7 +13,7 @@ function HomePage() {
 
   useEffect(() => {
     axios
-      .get("https://distracted-euclid-f15421.netlify.app/api/categories")
+      .get("https://metors-server.herokuapp.com/")
       .then((categories) => {
         setCategories(categories.data);
       })
