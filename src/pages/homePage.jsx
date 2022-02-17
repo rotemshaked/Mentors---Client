@@ -13,7 +13,7 @@ function HomePage() {
 
   useEffect(() => {
     axios
-      .get("https://metors-server.herokuapp.com")
+      .get("https://metors-server.herokuapp.com/api/categories")
       .then((categories) => {
         setCategories(categories.data);
       })

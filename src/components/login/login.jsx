@@ -45,7 +45,11 @@ const Login = ({ setSignUp, signUp, movePage, setMovePage }) => {
       };
       setLoading(true);
       await axios
-        .post("https://metors-server.herokuapp.com", userLoginDetailes, config)
+        .post(
+          "https://metors-server.herokuapp.com/api/users/login",
+          userLoginDetailes,
+          config
+        )
         .then((theUser) => {
           localStorage.setItem("token", theUser.data.token);
           localStorage.setItem("userInfo", JSON.stringify(theUser.data.user));

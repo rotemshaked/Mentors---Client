@@ -37,7 +37,7 @@ const Profile = ({ setSignUp }) => {
 
   const handleDelete = () => {
     try {
-      const api = "https://metors-server.herokuapp.com";
+      const api = "https://metors-server.herokuapp.com/api/users/me";
       const token = localStorage.getItem("token");
       axios
         .delete(api, {
